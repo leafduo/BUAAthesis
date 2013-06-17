@@ -1,6 +1,13 @@
 % !Mode:: "TeX:UTF-8"
-\documentclass[bachelor,openany,oneside,color]{buaathesis}
+\documentclass[bachelor,openany,oneside]{buaathesis}
+\renewcommand{\arraystretch}{2}
+\usepackage{multirow}
+\setlength{\tabcolsep}{20pt}
 \begin{document}
+
+\lstset{ %
+    language=[Objective]C                % choose the language of the code
+}
 
 % 用户信息
 \include{data/com_info}
@@ -21,12 +28,7 @@
 \mainmatter
 
 % 正文
-\include{data/chapter1-intro}
-\include{data/chapter2-config}
-\include{data/chapter3-download}
-\include{data/chapter4-basic}
-\include{data/chapter5-usage}
-\include{data/chapter6-implement}
+\include{data/chapter1-introduction}
 
 % 致谢
 \include{data/bachelor/thanks}
@@ -36,5 +38,5 @@
 % 附录
 \appendix
 \include{data/appendix1-faq}
-\include{data/appendix2-contactus}
+%\include{data/appendix2-contactus}
 \end{document}

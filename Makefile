@@ -1,6 +1,6 @@
 bachelor:
 	xelatex sample-bachelor.tex
-	-bibtex  sample-bachelor.aux
+	bibtex  sample-bachelor || echo 1
 	xelatex sample-bachelor.tex
 	xelatex sample-bachelor.tex
 master:

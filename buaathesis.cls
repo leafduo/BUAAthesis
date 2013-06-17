@@ -30,7 +30,7 @@ The LaTeX template for thesis of BUAA]
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{ctexbook}}
 \ProcessOptions\relax
 % 引用ctexbook及基本设置
-\LoadClass[cs4size,a4paper,fancyhdr]{ctexbook}[2007/10/19]
+\LoadClass[adobefonts,cs4size,a4paper,fancyhdr]{ctexbook}[2007/10/19]
 
 %%%%%%%%%% global package %%%%%%%%%%
 % 全局通用宏包
